@@ -9,7 +9,7 @@ Figure 1: Plot of histograms for all features
 ![image](https://github.com/user-attachments/assets/b4fb6442-16ad-440a-a816-09de456606fc)
 
 Figure 2: Principal component analysis for features and target parameters
-![image](https://github.com/user-attachments/assets/5348d115-47e6-44d3-92ce-8c0fc8cc5caf)
+![image](https://github.com/user-attachments/assets/dd356616-b4b2-4dd2-83ce-f66eed95cde5)
 
 # 3 Methods 
 The overlap observed in our PCA suggests a limited linear separability of our cohorts(diabetic or not). using a linear model (such as Logistic Regression) might struggle to accurately classify the data. As such, a more complex model that can capture non-linear relationships or interactions between features is typically better suited.
