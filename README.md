@@ -30,7 +30,7 @@ The PDPs provided insights into how changes in the top ten most important featur
 ## Figure 4: Partial dependence plots (PDP) of the top 10 important features
 ![image](https://github.com/user-attachments/assets/edf4c6ea-2037-4a43-b4c9-c335798d7c1a)
 
-# 3. Recommendations
+# 5. Recommendations
 #     Public Health Initiatives:
 Targeted public health initiatives should address the major predictors of diabetes, focusing on modifiable risk factors like weight management, diet, and physical activity to reduce the incidence of diabetes.
 #     Refinement of Predictive Models:
@@ -38,5 +38,6 @@ The current model performs well, but refining it and exploring additional featur
 #     Personalized Interventions:
 The non-linear relationships observed in the PDPs suggest that personalized interventions could be more effective than one-size-fits-all approaches. Healthcare providers should consider individual patient data when crafting prevention and treatment strategies, ensuring that interventions are tailored to the specific risk profile of each individual.
 
+# 5. Conclusion
 This analysis offers valuable insights into the factors driving diabetes risk and highlights the potential for data-driven public health strategies. By leveraging machine learning, we can better understand diabetes complexities and take proactive steps to address it at individual and population levels. 
 
