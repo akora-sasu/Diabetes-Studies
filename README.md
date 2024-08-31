@@ -12,9 +12,9 @@ The data is obtained from the Behavioral Risk Factor Surveillance System (BRFSS)
 ![image](https://github.com/user-attachments/assets/dd356616-b4b2-4dd2-83ce-f66eed95cde5)
 
 # 3 Methods 
-The overlap observed in our PCA suggests a limited linear separability of our cohorts(diabetic or not). using a linear model (such as Logistic Regression) might struggle to accurately classify the data. As such, a more complex model that can capture non-linear relationships or interactions between features is typically better suited.
+The overlap observed in our PCA suggests a limited linear separability of our cohorts(diabetic or not). using a linear model (such as Logistic Regression) might struggle to classify the data accurately. As such, a more complex model that can capture non-linear relationships or interactions between features is typically better suited.
 
-Random Forest which is an ensemble of decision trees that mitigates the overfitting problem of a single tree by averaging predictions from multiple trees is used. This is because is robust to overfitting, handles non-linear data, and works well with categorical and numerical features. One disadvantage of the model is that it is less interpretable than a single decision tree and can be computationally intensive.
+Random Forest is an ensemble of decision trees that mitigates the overfitting problem of a single tree by averaging predictions from multiple trees. This is because it is robust to overfitting, handles non-linear data, and works well with categorical and numerical features. One disadvantage of the model is that it is less interpretable than a single decision tree and can be computationally intensive.
 # 4 Insights 
 ## Table 1: Model performance matrix
 ![image](https://github.com/user-attachments/assets/294abd79-6a33-46bd-ba87-5654b859727c)
@@ -22,9 +22,13 @@ The Random Forest model achieved a 74% accuracy, showing reasonable predictive p
 
 ## •	Feature Importance and PDP Analysis:
 ## Figure3: Features and their contribution to diabetes incidences 
-![image](https://github.com/user-attachments/assets/595bc6b5-f536-45a9-bb0c-4c825c70b7e1)
+![image](https://github.com/user-attachments/assets/ed3419c6-5b78-42e5-8372-8e7863087384)
 
-The model identified key predictors of diabetes, and Partial Dependence Plots (PDP) helped understand their impact on diabetes risk.
-The PDPs provided insights into how changes in the top ten most important features affect diabetes risk, revealing complex non-linear relationships with certain health indicators, and underscoring the complexity of the disease predictors (see Appendix 3a and b of the attached link).
+The model identified key predictors of diabetes (see Figure 3), and Partial Dependence Plots (PDP) helped understand their impact on diabetes risk (see Figure 4).
+The PDPs provided insights into how changes in the top ten most important features affect diabetes risk, revealing complex non-linear relationships with certain health indicators, and underscoring the complexity of the disease predictors.
+
+## Figure 4: Partial dependence plots (PDP) of the top 10 important features
+![image](https://github.com/user-attachments/assets/edf4c6ea-2037-4a43-b4c9-c335798d7c1a)
+
 
 
